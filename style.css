@@ -1,0 +1,83 @@
+/* three sections in grid layout with title in background */
+/* three sections in grid layout with title in background */
+
+body {
+  background: #1a1a1a;
+  color: #ffffff;
+  text-align: center;
+}
+
+#container {
+  width: 400px;
+  height: 330px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px, solid, #aaaaaa;
+  border-radius: 20px;
+  background: #001f3f;
+}
+
+#timer {
+  width: 200px;
+  height: 200px;
+  color: #ffdc00;
+  font-size: 50px;
+  margin: 10px auto;
+  border: 5px solid #aaaaaa;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  cursor: default;
+}
+
+#time {
+  position: relative;
+  z-index: 1;
+  margin-top: 70px;
+}
+
+#filler {
+  height: 0px;
+  width: 200px;
+  bottom: 0;
+  position: absolute;
+  background: #7fdbff;
+}
+
+#buttons button {
+  height: 30px;
+  width: 70px;
+  margin: 10px auto;
+  border: none;
+  border-radius: 50px;
+  padding: 5px;
+  font-size: 14px;
+  background: #4da6ff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#buttons button#setSession {
+  background: #0c00c0;
+}
+
+#buttons button#setBreak {
+  background: #080080;
+}
+
+#buttons button#stop {
+  background: #f00f00;
+}
+
+.sessionSetter {
+  float: left;
+  height: 100px;
+  width: 200px;
+}
+
+.breakSetter {
+  float: left;
+  height: 100px;
+  width: 200px;
+}
